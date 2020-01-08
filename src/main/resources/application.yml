@@ -1,0 +1,9 @@
+sfg.brewery.apihost: http://localhost:8080
+
+logging.level.org.apache.http: debug
+
+svg.resttemplate:
+    max-total-connections: 100
+    default-max-total-connections: 20
+    connection-timeout: 3000
+    socket-timeout: 3000
